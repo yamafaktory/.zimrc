@@ -26,5 +26,8 @@ zcorrection='true'
 # Double-dot expansion.
 zdouble_dot_expand='true'
 
-# Syntax highlighting.
+# Syntax-Highlighting.
 zhighlighters=(main brackets)
+
+# Fix user using unstable on NixOS 16.03 system-wise.
+export NIX_PATH="$HOME/.nix-defexpr/channels/nixos:"${NIX_PATH}
