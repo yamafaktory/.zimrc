@@ -18,7 +18,7 @@ zmodules=(\
 )
 
 # Prompt theme.
-zprompt_theme='pure'
+zprompt_theme='gitster'
 
 # Command correction.
 zcorrection='true'
